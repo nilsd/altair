@@ -1058,10 +1058,10 @@
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/@types/filewriter/-/filewriter-0.0.28.tgz#c054e8af4d9dd75db4e63abc76f885168714d4b3"
 
-"@types/jasmine@3.3.9":
-  version "3.3.9"
-  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.9.tgz#ee886a9113db567e722a8a0c37f0e6283f2cefa3"
-  integrity sha512-vw3VyFPa9mlba6NZPBZC3q2Zrnkgy5xuCVI43/tTLX6umdYrYvcFtQUKi2zH3PjFZQ9XCxNM/NMrM9uk8TPOzg==
+"@types/jasmine@3.3.10":
+  version "3.3.10"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.10.tgz#5b90c8e74246487e8810100ddc2547ffc94d31f6"
+  integrity sha512-F4yCbIk3Tgj7j+/cR5qtE5rQHVFyd7vOuG4zqeykztN99SSVCKwiPIea2Q/nVJbC6GJXbtaNKSyFVtMCkoRngA==
 
 "@types/js-beautify@0.0.28":
   version "0.0.28"
@@ -8648,9 +8648,10 @@ ngx-markdown@^7.1.4:
     prismjs "^1.15.0"
     tslib "^1.9.0"
 
-ngx-pipes@^2.1.0:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/ngx-pipes/-/ngx-pipes-2.3.5.tgz#3a5663dcd540d04f1a7997db50b33bf4c2b1f03e"
+ngx-pipes@^2.4.5:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/ngx-pipes/-/ngx-pipes-2.4.5.tgz#88d5a64dbcff7e9b95f9d4cbcbca721e6cebf012"
+  integrity sha512-m1bNQZlkfwy/er8I2YuC2KBa9s592IAObBOPoud04CULeIhLwY9KTcld7Np7pJZnAWZ5146NwIbI1K0OP9nBoA==
   dependencies:
     tslib "^1.9.0"
 
