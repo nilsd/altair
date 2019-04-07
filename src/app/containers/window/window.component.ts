@@ -79,6 +79,12 @@ export class WindowComponent implements OnInit {
   showAddToCollectionDialog = false;
 
   gqlSchema = null;
+  sdl = '';
+  pluginContext = {
+    setQuery: (query) => {
+      this.updateQuery(query);
+    }
+  };
 
   subscriptionUrl = '';
   subscriptionConnectionParams = '';
@@ -168,6 +174,9 @@ export class WindowComponent implements OnInit {
       // Rehydrated schema objects are not valid, so we get the schema again.
       if (this.gql.isSchema(data.schema.schema)) {
         this.gqlSchema = data.schema.schema;
+        if (!this.sdl) {
+          this.sdl = this.gql.getSDL(this.gqlSchema);
+        }
       } else {
         const schema = this.gql.getIntrospectionSchema(data.schema.introspection);
         if (schema) {
